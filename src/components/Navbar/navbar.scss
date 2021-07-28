@@ -1,0 +1,32 @@
+@import '../../scss/variables.scss';
+
+.navbar {
+  background-color: $mainColorDark;
+  padding: 25px 0;
+  color: $mainColorLight;
+  font-size: 30px;
+  font-weight: 300;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin-right: 80px / 1460px * 100%;
+
+    &:hover {
+      color: #FFCA62;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      transition: all 0.5s;
+    }
+
+    &:last-child {
+      margin-right: 0;
+      }
+  }
+
+  &--active {
+    //color: #FFCA62
+  }
+}

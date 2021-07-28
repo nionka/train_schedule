@@ -1,0 +1,7 @@
+@import '../../scss/mixins.scss';
+
+.wrapper {
+  background-image: url('../../img/banner-1.jpg');
+  @include bg;
+  height: 100vh;
+}
