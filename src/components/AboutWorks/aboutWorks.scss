@@ -1,0 +1,13 @@
+@import '../../scss/variables.scss';
+@import '../../scss/mixins.scss';
+
+.aboutWorks {
+  background-image: url('../../img/banner-work.jpg');
+  @include bg;
+  color: $mainColorLight;
+  padding: 60px 0;
+
+  &__header {
+    display: flex;
+  }
+}
