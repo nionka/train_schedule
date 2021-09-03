@@ -15,7 +15,7 @@
     margin-right: 80px / 1460px * 100%;
 
     &:hover {
-      color: #FFCA62;
+      color: $accentColorLight;
       text-decoration: underline;
       text-underline-offset: 4px;
       transition: all 0.5s;

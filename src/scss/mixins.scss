@@ -4,3 +4,29 @@
   background-size: cover;
   background-color: lightgray; 
 }
+
+@mixin title {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  
+}
+
+@mixin btn-transparent {
+  height: 60px;
+  color: inherit;
+  border-radius: 5px;
+  border: 1px solid $mainColorLight;
+  background-color: transparent;
+
+  &:hover {
+    color: #2D2B2F;
+    background-color: $accentColorLight;
+    border: 1px solid $accentColorLight;
+  }
+
+  &:active {
+    color: #2D2B2F;
+    background-color: $mainColorLight;
+  }
+}
