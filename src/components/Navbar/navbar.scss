@@ -16,9 +16,21 @@
 
     &:hover {
       color: $accentColorLight;
-      text-decoration: underline;
-      text-underline-offset: 4px;
       transition: all 0.5s;
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      width: auto;
+      height: 2px;
+      opacity: 0;
+      background-color: $accentColorLight;
+      transition: all 0.5s;  
     }
 
     &:last-child {
