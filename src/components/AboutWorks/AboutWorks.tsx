@@ -1,5 +1,4 @@
-import React from 'react';
-import { ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 import './aboutWorks.scss';
 import aboutWorks1 from '../../img/aboutWorks-1.png';
 import aboutWorks2 from '../../img/aboutWorks-2.png';

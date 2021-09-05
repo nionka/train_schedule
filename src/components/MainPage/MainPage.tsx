@@ -1,7 +1,8 @@
-import React from 'react';
-import { ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 import AboutUs from '../AboutUs/AboutUs';
 import AboutWorks from '../AboutWorks/AboutWorks';
+import FeedBack from '../FeedBack/FeedBack';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './mainPage.scss';
 
@@ -13,6 +14,8 @@ function MainPage(): ReactElement {
       </div>
       <AboutUs />
       <AboutWorks />
+      <FeedBack />
+      <Footer />
     </>
   )
 }
