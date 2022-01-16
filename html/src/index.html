@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Заказ билетов</title>
+</head>
+<body>
+  <header class="header bg">
+    <div class="logo header__logo">
+      <div class="container">
+        <a href="/index.html">Лого</a>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="container">
+        <nav class="navbar__list">
+          <ul>
+            <li class="navbar__item">
+              <a href="#aboutAs" class="navbar__link">О нас</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#aboutWorks" class="navbar__link">Как это работает</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#feedback" class="navbar__link">Отзывы</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#contacts" class="navbar__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="container header-container">
+      <h1 class="header__title">
+        Вся жизнь - <span>путешествие!</span>
+      </h1>
+
+      <form class="header__form">
+        <div>
+          <label>
+            <div class="header__form-way">Направление</div>
+            <div class="header__form-input-box">
+              <input class="input-way input-header" type="text" placeholder="Откуда">
+              <button class="btn-change"><i class="fas fa-sync-alt"></i></button>
+              <input class="input-way input-header" type="text" placeholder="Куда">
+            </div>
+          </label>
+          <label>
+            <div class="header__form-way">Дата</div>
+            <div class="header__form-input-box">
+              <input class="input-header" type="date">
+              <input class="input-header" type="date">
+            </div>
+          </label>
+        </div>
+        <button class="header__form-btn form-btn" type="submit">Найти билеты</button>
+      </form>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="aboutAs" id="aboutAs">
+      <div class="container">
+        <h2 class="aboutAs__title title">О нас</h2>
+        <div class="aboutAs__content">
+          <div class="aboutAs__streak"></div>
+          <div>
+            <p>Мы рады видеть вас! Мы работаем для Вас с 2003 года. 14 лет мы наблюдаем, как с каждым днем 
+              все больше людей заказывают жд билеты через интернет.</p>
+            <p>Сегодня можно заказать железнодорожные билеты онлайн всего в 2 клика, но стоит ли это делать? 
+              Мы расскажем о преимуществах заказа через интернет.</p>
+            <p class="aboutAs__bold">Покупать жд билеты дешево можно за 90 суток до отправления поезда. 
+              Благодаря динамическому ценообразованию цена на билеты в это время самая низкая.</p> 
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="aboutWorks bg" id="aboutWorks">
+      <div class="container">
+        <div class="aboutWorks__header">
+          <h2 class="aboutWorks__title title">Как это работает</h2>
+          <button type="button" class="aboutWorks__btn btn">Узнать больше</button>
+        </div>
+        <ul class="aboutWorks__list">
+          <li class="aboutWorks__item">
+            <div class="aboutWorks__item-img">
+              <img src="./img/aboutWorks-1.png" alt="">
+            </div>
+            <div class="aboutWorks__item-text">Удобный заказ <br> на сайте</div>
+          </li>
+          <li class="aboutWorks__item">
+            <div class="aboutWorks__item-img">
+              <img src="./img/aboutWorks-2.png" alt="">
+            </div>
+            <div class="aboutWorks__item-text">Нет необходимости ехать в офис</div>
+          </li>
+          <li class="aboutWorks__item">
+            <div class="aboutWorks__item-img">
+              <img src="./img/aboutWorks-3.png" alt="">
+            </div>
+            <div class="aboutWorks__item-text">Огромный выбор направлений</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <h2 class="feedback__title title">Отзывы</h2>
+        <ul class="feedback__list">
+          <li class="feedback__item">
+            <div class="feedback__item-img">
+              <img src="./img/feedback-img-1.png" alt="">
+            </div>
+            <div class="feedback__item-content">
+              <div class="feedback__item-name">Екатерина Вальнова</div>
+              <div class="feedback__item-text">
+                 <q> Доброжелательные подсказки на всех этапах помогут правильно заполнить поля и без 
+                   затруднений купить авиа или ж/д билет, даже если вы заказываете онлайн билет впервые.</q>
+              </div>
+            </div>
+          </li>
+          <li class="feedback__item">
+            <div class="feedback__item-img">
+              <img src="./img/feedback-img-2.png" alt="">
+            </div>
+            <div class="feedback__item-content">
+              <div class="feedback__item-name">Евгений Стрыкало</div>
+              <div class="feedback__item-text">
+                 <q> 
+                  СМС-сопровождение до посадки
+                  Сразу после оплаты ж/д билетов 
+                  и за 3 часа до отправления мы пришлем вам СМС-напоминание о поездке.</q>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="slider">
+          <ul class="slider__list">
+            <li class="slider__item slider__item-active"></li>
+            <li class="slider__item"></li>
+            <li class="slider__item"></li>
+            <li class="slider__item"></li>
+            <li class="slider__item"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+
+      <section class="footer__contacts" id="contacts">
+        <h3 class="footer__title">Свяжитесь с нами</h3>
+        <div class="footer__contact">
+          <i class="fas fa-phone-alt icon"></i>
+          <a href="tel:+7-800-000-00-00">8 (800) 000 00 00</a>
+        </div>
+        <div class="footer__contact">
+          <i class="fas fa-envelope icon"></i>
+          <a href="mailto:inbox@mail.ru">inbox@mail.ru</a>
+        </div>
+        <div class="footer__contact">
+          <i class="fab fa-skype icon"></i>
+          <a href="/tu.train.tickets">tu.train.tickets</a>
+        </div>
+        <div class="footer__contact">
+          <i class="fas fa-map-marker-alt icon"></i>
+          <div>г. Москва <br> ул. Московская 27-35 <br>555 555</div>
+        </div>
+      </section>
+
+      <section class="footer__subscribe">
+        <h3 class="footer__title">Подписка</h3>
+        <form action="" class="form__subscribe">
+          <label for="subscr">Будьте в курсе событий</label>
+          <input type="text" id="subscr" class="input__subscribe" placeholder="email">
+          <button class="subscribe__btn btn">отправить</button>
+        </form>
+
+        <h3 class="footer__title">Подписывайтесь на нас</h3>
+        <ul class="socials"> 
+          <li class="socials__item">
+            <a><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="socials__item">
+            <a><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li class="socials__item">
+            <a><i class="fab fa-google-plus-g"></i></a>
+          </li>
+          <li class="socials__item">
+            <a><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="socials__item">
+            <a><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+
+
+    </div>
+
+    <div class="footer-logo">
+      <div class="container logo-footer">
+        <a href="/index.html" class="logo">Лого</a>
+        <div class="toUp">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="toUp__svg1" cx="18" cy="18" r="17.5" stroke="#E5E5E5"/>
+            <path class="toUp__svg2" d="M18.3 16.7569C19.9256 18.3882 21.4531 19.9325 22.9667 21.4552C23.3758 21.8668 24.0742 
+              21.835 24.4853 21.4256C24.8978 21.0149 24.8646 20.3803 24.4521 19.9696C22.6174 18.1427 20.7773 16.3107 18.9612 
+              14.5024C18.571 14.114 17.9403 14.1139 17.5503 14.5026C15.8016 16.2458 13.9963 18.0515 12.1839 19.8493C11.7543 
+              20.2753 11.7195 20.9344 12.1606 21.3485C12.579 21.7412 13.272 21.7659 13.6799 21.3622C15.1455 19.912 16.6793 18.383 18.3 16.7569Z" fill="#E5E5E5"/>
+            </svg>
+        </div>
+        <div class="footer-logo__text">2018 WEB</div>
+      </div> 
+    </div>
+  </footer>
+  
+</body>
+</html>

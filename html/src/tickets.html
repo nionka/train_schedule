@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заказ билетов</title>
+</head>
+<body>
+
+  <header class="header-tickets bg">
+    <div class="logo header__logo">
+      <div class="container">
+        <a href="/index.html">Лого</a>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="container">
+        <nav class="navbar__list">
+          <ul>
+            <li class="navbar__item">
+              <a href="/index.html#aboutAs" class="navbar__link">О нас</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/index.html#aboutWorks" class="navbar__link">Как это работает</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/index.html#feedback" class="navbar__link">Отзывы</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/index.html#contacts" class="navbar__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <form class="header__form header__form-tickets">
+      <div class="header__form-tickets-wrapper">
+        <label>
+          <div class="header__form-way">Направление</div>
+          <div class="header__form-input-box">
+            <input class="input-way input-header" type="text" placeholder="Откуда">
+            <button class="btn-change"><i class="fas fa-sync-alt"></i></button>
+            <input class="input-way input-header" type="text" placeholder="Куда">
+          </div>
+        </label>
+        <label>
+          <div class="header__form-way">Дата</div>
+          <div class="header__form-input-box">
+            <input class="input-header" type="date">
+            <input class="input-header" type="date">
+          </div>
+        </label>
+      </div>
+      <button class="header__form-btn form-btn" type="submit">Найти билеты</button>
+    </form>
+  </header>
+
+  <section class="navigation">
+    <div class="navigation__item navigation__item-active">
+      <div class="navigation__number">1</div>
+      <div class="navigation__name">Билеты</div>
+    </div>
+    <div class="navigation__item">
+      <div class="navigation__number">2</div>
+      <div class="navigation__name">Пассажиры</div>
+    </div>
+    <div class="navigation__item">
+      <div class="navigation__number">3</div>
+      <div class="navigation__name">Оплата</div>
+    </div>
+    <div class="navigation__item">
+      <div class="navigation__number">4</div>
+      <div class="navigation__name">Проверка</div>
+    </div>
+  </section>
+
+  <section class="container  flex-container">
+    <aside class="aside">
+      <section class="info">
+        <form action="" class="info__form">
+          <label for="info__form-to">Дата поездки</label>
+          <input type="date" class="info__form-to" id="info__form-to">
+          <label for="info__form-back">Дата возвращения</label>
+          <input type="date" class="info__form-back" id="info__form-back">
+        </form>
+        <div class="info__options">
+          
+        </div>
+
+      </section>
+      <section class="lastTickets">
+
+      </section>
+    </aside>
+
+    <section class="selection">
+
+    </section>
+  </section>
+  
+</body>
+</html>

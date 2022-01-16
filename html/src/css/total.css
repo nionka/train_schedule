@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic-ext');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  --color-black: #000000;
+  --color-light-black: #292929;
+  --color-dark-black: #2D2B2F;
+  --color-dark-gray: #3E3C41;
+  --color-gray: #928F94;
+  --color-light-gray: #E4E0E9;
+  --color-light-gray-white: #F7F6F6;
+  --color-white: #ffffff;
+  --color-dark-white: #e5e5e5;
+  --color-yellow: #FFA800;
+  --color-light-yellow: #FFCA62;
+  --color-peach: #FFD98F;
+  --color-clear-black: rgba(0, 0, 0, 0.6);
+  --color-clear-light-black: rgba(41, 41, 41, 0.8);
+
+  --logo-font-color: var(--color-dark-white);
+  --logo-bg-color: var(--color-clear-black);
+  --navbar-bg-color: var(--color-light-black);
+  --navbar-font-color: var(--color-white);
+  --main-title-font-color: var(--color-white);
+  --form-bg-color: var(--color-clear-light-black);
+  --form-font-color: var(--color-white);
+  --input-color: var(--color-dark-white);
+  --btn-form-font-color: var(--color-light-black);
+  --btn-form-bg-color: var(--color-yellow);
+  --btn-box-shadow: rgba(0, 0, 0, 0.25);
+  --btn-border-color: var(--color-yellow);
+  --btn-font-color: var(--color-yellow);
+  --btn-bg-color: var(--color-dark-white);
+  --aboutWorks-font-color: var(--color-white);
+  --title-font-color: var(--color-light-black);
+  --btn-hover-bg-color: var(--color-light-yellow);
+  --btn-active-bg-color: var(--color-white);
+  --btn-active-color: var(--color-dark-black);
+  --footer-bg-color: var(--color-dark-black);
+  --footer-font-color: var(--color-dark-white);
+  --footer-title-font-color: var(--color-white);
+  --navigation-bg-color: var(--color-dark-gray);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  line-height: 1.2;
+  background-color: var(--color-white);  
+}
+
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+a:hover, button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--color-dark-gray);
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 10px;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}

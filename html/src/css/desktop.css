@@ -1,0 +1,27 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .header__form {
+    width: 580px;
+    padding: 50px 20px 30px;
+    font-size: 26px;
+  }
+
+  .header__form-tickets {
+    width: 1120px;
+  }
+
+  .header__form label {
+    margin-bottom: 30px;
+  }
+
+  .header__form-btn {
+    width: 245px;
+  }
+
+  .input-header {
+    width: 245px;
+  }
+}
